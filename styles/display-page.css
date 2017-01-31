@@ -1,31 +1,35 @@
-body {
+main {
   font-size: 0;
+}
+
+.parent {
+  width: 800px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box {
   border: 1px solid black;
+  display: inline-block;
 }
 
 .top {
   height: 200px;
-  width: 800px;
 }
 
 .bottom {
   height: 300px;
-  width: 800px;
 }
 
 .upper {
   width: 50%;
   height: 200px;
-  display: inline-block;
 }
 
 .lower {
   width: 33.33%;
   height: 300px;
-  display: inline-block;
 }
 
 .green {
